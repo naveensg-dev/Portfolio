@@ -2,7 +2,7 @@
 
 Personal portfolio website of Naveen S Gawadi, a CSE (AI & ML) student at AJ Institute of Engineering and Technology (VTU), Bangalore.
 
-**Live site:** https://naveensg-dev.github.io
+**Live site:** https://naveensg-dev.github.io/Portfolio
 
 ## About
 
