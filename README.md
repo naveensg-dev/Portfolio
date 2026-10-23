@@ -1,6 +1,6 @@
 # Naveen S Gawadi — Professional Developer Portfolio
 
-> **Live Portfolio:** [https://naveensg-dev.github.io](https://naveensg-dev.github.io)  
+> **Live Portfolio:** [https://naveensg-dev.github.io/Portfolio](https://naveensg-dev.github.io/Portfolio)  
 > **Repository:** [https://github.com/naveensg-dev/Portfolio](https://github.com/naveensg-dev/Portfolio)  
 > **Contact:** [naveengawadi@gmail.com](mailto:naveengawadi@gmail.com) | [LinkedIn](https://linkedin.com/in/naveen-gawadi)
 
