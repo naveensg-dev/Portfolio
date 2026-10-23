@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Naveen S Gawadi – AI &amp; ML Student</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f7;--surface:#fff;--ink:#14213d;--mute:#4a5876;--line:#c9d3e3;--accent:#2f5bff;--on-accent:#fff;--streak:#ffb703;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1729;--surface:#18233d;--ink:#eaf0ff;--mute:#9fb0d3;--line:#2b3a5c;--accent:#7f9cff;--on-accent:#0f1729}}
+:root[data-theme="dark"]{--bg:#0f1729;--surface:#18233d;--ink:#eaf0ff;--mute:#9fb0d3;--line:#2b3a5c;--accent:#7f9cff;--on-accent:#0f1729}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;line-height:1.05;margin:0}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+header.hero{padding:72px 0 56px;border-bottom:1px solid var(--line)}
+.hero h1{font-weight:800;font-size:clamp(3rem,10vw,6.5rem);letter-spacing:-.03em}
+.hero p.lead{max-width:34em;font-size:1.15rem;color:var(--mute);margin:20px 0 28px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 20px;border-radius:8px;border:2px solid var(--accent);text-decoration:none;font-weight:500}
+.btn.main{background:var(--accent);color:var(--on-accent)}
+.grid-demo{margin-top:44px;max-width:420px}
+.grid-demo p{margin:0 0 10px;font-size:.95rem;color:var(--mute)}
+.cells{display:grid;grid-template-columns:repeat(14,1fr);gap:5px}
+.cells button{aspect-ratio:1;border:1px solid var(--line);background:var(--surface);border-radius:4px;cursor:pointer;padding:0;transition:background .15s,transform .15s}
+.cells button[aria-pressed="true"]{background:var(--streak);border-color:var(--streak);transform:scale(.9)}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+section h2{font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:24px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px}
+.card h3{font-size:1.5rem;margin-bottom:6px}
+.tech{color:var(--accent);font-weight:500;margin:0 0 12px;font-size:.95rem}
+.card ul{margin:0;padding-left:20px}
+.card li{margin-bottom:8px}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:10px 24px;margin:0}
+dt{font-weight:500}dd{margin:0;color:var(--mute)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.chips li{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 14px;font-size:.95rem}
+footer{padding:40px 0 56px;color:var(--mute);font-size:.95rem}
+@media(max-width:720px){.two{grid-template-columns:1fr}dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:12px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<h1>Naveen S Gawadi</h1>
+<p class="lead">Computer science student specialising in AI &amp; ML. I build full-stack web apps and small embedded devices, and I’m learning machine learning one project at a time.</p>
+<div class="btns">
+<a class="btn main" href="mailto:naveengawadi@gmail.com">Email me</a>
+<a class="btn" href="https://github.com/naveensg-dev">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/naveen-gawadi">LinkedIn</a>
+</div>
+<div class="grid-demo">
+<p>Digital Mirror tracks habits with streaks. Try it: tap the days you showed up.</p>
+<div class="cells" id="cells" role="group" aria-label="Streak demo"></div>
+</div>
+</div></header>
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<div class="two">
+<article class="card">
+<h3>Digital Mirror</h3>
+<p class="tech">React.js, Firebase, Firestore, Vercel</p>
+<ul>
+<li>Habit-tracking web app with a gamified streak system and a real-time global leaderboard.</li>
+<li>Designed the Firestore NoSQL schema and built real-time sync with onSnapshot listeners.</li>
+<li>Deployed on Vercel with CI/CD through GitHub.</li>
+</ul>
+</article>
+<article class="card">
+<h3>Sensored Handicapped Stick</h3>
+<p class="tech">Arduino Uno, ultrasonic sensor, C</p>
+<ul>
+<li>Assistive device that detects obstacles and alerts the user with a buzzer or vibration.</li>
+<li>Wrote the threshold-based detection logic on Arduino in a team of 6.</li>
+</ul>
+</article>
+</div>
+<p style="margin-top:24px">More code on <a href="https://github.com/naveensg-dev">GitHub</a>, including <a href="https://github.com/naveensg-dev/CODSOFT">CODSOFT</a> and <a href="https://github.com/naveensg-dev/S4-AJIET_AIML_NAVEEN_076">S4-AJIET_AIML_NAVEEN_076</a>.</p>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills</h2>
+<dl>
+<dt>Languages</dt><dd><ul class="chips"><li>Python</li><li>Java</li><li>SQL</li><li>C</li></ul></dd>
+<dt>Tools</dt><dd><ul class="chips"><li>Git &amp; GitHub</li><li>Jupyter Notebook</li><li>Google Colab</li></ul></dd>
+<dt>Databases &amp; Office</dt><dd><ul class="chips"><li>MySQL</li><li>PostgreSQL</li><li>MS Excel</li><li>MS Word</li><li>MS PowerPoint</li></ul></dd>
+<dt>Spoken</dt><dd><ul class="chips"><li>English</li><li>Kannada</li><li>Hindi</li><li>Telugu</li></ul></dd>
+</dl>
+</div></section>
+
+<section id="education"><div class="wrap">
+<h2>Education and learning</h2>
+<div class="two">
+<div class="card">
+<h3>B.E. in CSE (AI &amp; ML)</h3>
+<p class="tech">2024 – 2028</p>
+<p style="margin:0">AJ Institute of Engineering and Technology, VTU. CGPA 7.3/10.</p>
+</div>
+<div class="card">
+<h3>Pre-University, PCMC</h3>
+<p class="tech">2022 – 2024</p>
+<p style="margin:0">Hanumanth Benne Pre-University College. 83%.</p>
+</div>
+</div>
+<h3 style="font-size:1.3rem;margin:32px 0 12px">Certifications</h3>
+<ul class="chips"><li>Data Science and Analytics, HP LIFE</li><li>AI for Beginners, HP LIFE</li><li>AI Aware, Intel AI for All</li><li>AI Appreciate, Intel AI for All</li></ul>
+<p style="color:var(--mute);margin-top:24px">I also attended an AI talk at Hackerspace Mangaluru (DevDays Mangaluru) to meet the local developer community.</p>
+</div></section>
+
+<footer><div class="wrap">
+<p>Based in Bangalore, Karnataka. Open to internships and collaborations. <a href="mailto:naveengawadi@gmail.com">naveengawadi@gmail.com</a></p>
+</div></footer>
+
+<script>
+(function(){
+var box=document.getElementById('cells'),pattern=[1,1,0,1,1,1,0,1,1,1,1,0,1,0];
+pattern.forEach(function(on,i){
+var b=document.createElement('button');
+b.type='button';b.setAttribute('aria-label','Day '+(i+1));b.setAttribute('aria-pressed',on?'true':'false');
+b.addEventListener('click',function(){b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')==='true'?'false':'true')});
+box.appendChild(b);
+});
+})();
+</script>
+</body>
+</html>
